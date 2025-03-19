@@ -11,6 +11,7 @@ These are my personal dotfiles for an Arch Linux setup with Hyprland.
 * **Wlogout:** 🚪 A simple logout menu for Wayland.
 * **Rofi:** 🔍 A window switcher, application launcher and dmenu replacement.
 * **Neovim:** 📝 The hyperextensible Vim-based text editor.
+* **Nerd Font:** 🔡 Requires a Nerd Font for icons (e.g., `ttf-cascadia-code-nerd`).
 
 ## 🛠️ Installation
 
@@ -37,6 +38,12 @@ These are my personal dotfiles for an Arch Linux setup with Hyprland.
 
     ```bash
     sudo pacman -S hyprland kitty waybar dunst wlogout rofi neovim
+    ```
+    
+    Install a Nerd Font. For example, using `yay`:
+
+    ```bash
+    yay -S ttf-cascadia-code-nerd
     ```
 
 ## ⚙️ Configuration
