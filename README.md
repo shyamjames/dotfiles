@@ -17,7 +17,7 @@ These are my personal dotfiles for an Arch Linux setup with Hyprland.
 1.  Clone this repository:
 
     ```bash
-    git clone <repository_url> ~/.dotfiles
+    git clone https://github.com/shyamjames/dotfiles.git ~/.dotfiles
     ```
 
 2.  Create symbolic links:
@@ -45,4 +45,6 @@ Feel free to customize these dotfiles to your liking! 🎨
 
 * Edit the configuration files in `~/.dotfiles/`.
 * Reload Hyprland or other applications for changes to take effect.
+* Heavily based on dotfiles by [@typecraft-dev](https://github.com/typecraft-dev).
+* Catppuccin theme applied throughout.
 
