@@ -6,6 +6,7 @@ These are my personal dotfiles for an Arch Linux + Hyprland setup. 🚀
 
 * **Window Manager:** Hyprland 🖼️
 * **Terminal:** Kitty 🐱‍💻
+* **Shell:** Zsh 🐚
 * **Notification Daemon:** Dunst 🔔
 * **Application Launcher:** Rofi 🔍
 * **Shell Prompt:** Starship ⭐
@@ -15,7 +16,11 @@ These are my personal dotfiles for an Arch Linux + Hyprland setup. 🚀
 ## 🎨 Theme
 
 * Heavily based on the [Catppuccin Mocha](https://github.com/catppuccin/catppuccin) color scheme. ☕
-* Inspired by [typrcraft-dev](https://github.com/typrcraft-dev)'s dotfiles. ✨
+* Inspired by [typecraft-dev](https://https://github.com/typecraft-dev)'s dotfiles. ✨
+
+## 🖼️ Preview
+
+![Preview](hyprshot.png)
 
 ## 🛠️ Installation
 
@@ -55,6 +60,7 @@ These are my personal dotfiles for an Arch Linux + Hyprland setup. 🚀
 * Kitty 🐱‍💻
 * Dunst 🔔
 * Rofi 🔍
+* Zsh 🐚
 * Starship ⭐
 * Waybar 📊
 * Wlogout 🚪
@@ -62,4 +68,4 @@ These are my personal dotfiles for an Arch Linux + Hyprland setup. 🚀
 ## 🙏 Credits
 
 * [Catppuccin](https://github.com/catppuccin/catppuccin) ☕
-* [typrcraft-dev](https://github.com/typrcraft-dev) ✨
+* [typecraft-dev](https://github.com/typecraft-dev) ✨
