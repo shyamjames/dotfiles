@@ -21,7 +21,7 @@ These are my personal dotfiles for an Arch Linux + Hyprland setup. 🚀
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/shyamjames/dotfiles](https://github.com/shyamjames/dotfiles) ~/.dotfiles
+    git clone https://github.com/shyamjames/dotfiles ~/.dotfiles
     ```
 2.  Navigate to the cloned directory:
     ```bash
