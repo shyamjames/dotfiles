@@ -12,6 +12,7 @@ These are my personal dotfiles for an Arch Linux + Hyprland setup. 🚀
 * **Shell Prompt:** Starship ⭐
 * **Status Bar:** Waybar 📊
 * **Logout Menu:** Wlogout 🚪
+* **Text Editor:** Neovim (nvim) 📝
 
 ## 🎨 Theme
 
@@ -26,7 +27,7 @@ These are my personal dotfiles for an Arch Linux + Hyprland setup. 🚀
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/shyamjames/dotfiles ~/.dotfiles
+    git clone [https://github.com/shyamjames/dotfiles](https://github.com/shyamjames/dotfiles) ~/.dotfiles
     ```
 2.  Navigate to the cloned directory:
     ```bash
@@ -40,19 +41,20 @@ These are my personal dotfiles for an Arch Linux + Hyprland setup. 🚀
     cp ~/.dotfiles/rofi/* ~/.config/rofi/
     cp ~/.dotfiles/waybar/* ~/.config/waybar/
     cp ~/.dotfiles/wlogout/* ~/.config/wlogout/
+    cp ~/.dotfiles/nvim/* ~/.config/nvim/ 
     # if you have starship.toml in your dotfiles
     cp ~/.dotfiles/starship/starship.toml ~/.config/starship.toml
     ```
 4.  Install the required packages:
     ```bash
     # using pacman
-    sudo pacman -S hyprland kitty dunst rofi starship waybar wlogout
+    sudo pacman -S hyprland kitty dunst rofi starship waybar wlogout neovim # add neovim to this line
     # additional packages required by the config files.
     yay -S ttf-cascadia-code-nerd # a nerd font 🤓
     ```
 5.  Configure Starship by creating or editing `~/.config/starship.toml`
 6.  Reboot or restart Hyprland to apply the changes. 🔄
-
+7. If your nvim config uses plugins, install them using your plugin manager. (e.g. `packer`, `vim-plug`)
 ## 📋 Dependencies
 
 * Arch Linux 🐧
@@ -64,6 +66,7 @@ These are my personal dotfiles for an Arch Linux + Hyprland setup. 🚀
 * Starship ⭐
 * Waybar 📊
 * Wlogout 🚪
+* Neovim (nvim) 📝
 
 ## 🙏 Credits
 
