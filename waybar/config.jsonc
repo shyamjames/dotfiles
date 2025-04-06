@@ -13,7 +13,6 @@
 },
 
 
-
   "clock": {
     "format": "<span foreground='#f5c2e7'></span>{:%a %d %I:%M %p}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
