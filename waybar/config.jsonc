@@ -29,7 +29,7 @@
   },
 
 "battery": {
-  "format": "<span size='13000' foreground='#f9e2af'>{icon}</span> {capacity}%",
+  "format": "<span size='13000' foreground='#b8bb26'>{icon}</span>   {capacity}%",
   "format-charging": "<span size='13000' foreground='#b8bb26'>󰂄</span>",
   "format-plugged": "<span size='13000' foreground='#b8bb26'>󰂄</span>",
   "format-full": "<span size='13000' foreground='#b8bb26'>󰂄</span>",
