@@ -55,6 +55,7 @@ require("lazy").setup({
         "ts_ls",    -- for JavaScript (tsserver handles JS too)
         "pyright",     -- for Python
         "jdtls",       -- for Java
+        "clangd",      -- for C/C++
       }
 
       for _, lsp in ipairs(servers) do
@@ -87,5 +88,17 @@ require("lazy").setup({
       })
     end,
   },
+
+  -- autopairs
+  {
+    "windwp/nvim-autopairs",
+    event = "InsertEnter",
+    config = function()
+      require("nvim-autopairs").setup() -- This line enables autopairs with default settings
+    end,
+  },
+
+  -- Add nvim-tree plugin
+  { 'kyazdani42/nvim-tree.lua' },
 })
 
