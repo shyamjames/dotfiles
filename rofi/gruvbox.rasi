@@ -8,7 +8,7 @@
     fg-col2: #ebdbb2;
     grey: #928374;
     width: 800;
-    font: "CaskaydiaCove Nerd Font 16";
+    font: "Cubano 16";
 }
 
 element-text, element-icon , mode-switcher {
