@@ -1,0 +1,4 @@
+https://docbot.onetwoseven.one/linux/arch-pipewire/
+
+systemctl --user enable pipewire.service
+systemctl --user start pipewire.service
