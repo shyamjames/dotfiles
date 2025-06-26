@@ -18,7 +18,7 @@ systemctl --user start pipewire.service
 - hyprpaper
 - hyprlock
 - wlogout
-- dunst
+- dunst // notification manager
 - pipewire
 - pipewire-pulse
 - bluez, bluez-utils
@@ -32,7 +32,8 @@ systemctl --user start pipewire.service
 - qt5-wayland
 - qt6-wayland
 - mkinitcipio-firmware
-- neofetch
-- noto-fonts-emoji
-- pwvucontrol
-- starship
+- neofetch 
+- noto-fonts-emoji // emoji
+- pwvucontrol // audio frontend
+- starship // theme zsh
+- wl-clipboard // clipboard manager
