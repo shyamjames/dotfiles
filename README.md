@@ -10,8 +10,8 @@
 - ttf-jetbrains-mono-nerd
 
 ### Audio
-link: https://docbot.onetwoseven.one/linux/arch-pipewire/
-systemctl --user enable pipewire.service
+link: https://docbot.onetwoseven.one/linux/arch-pipewire/  
+systemctl --user enable pipewire.service  
 systemctl --user start pipewire.service
 
 ### Packages to install
