@@ -42,3 +42,6 @@ systemctl --user start pipewire.service
 - starship // theme zsh
 - wl-clipboard // clipboard manager
 - hyprshot // screenshot utility
+
+### Oh My Zsh theme
+- Fishy
